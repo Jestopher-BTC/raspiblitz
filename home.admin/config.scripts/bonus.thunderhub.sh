@@ -28,7 +28,7 @@ if [ "$1" = "menu" ]; then
     # Info with TOR
     /home/admin/config.scripts/blitz.lcd.sh qr "${toraddress}"
     whiptail --title " ThunderHub " --msgbox "Open in your local web browser & accept self-signed cert:
-https://${localip}:3011\n
+https://${localip}:3010\n
 SHA1 Thumb/Fingerprint:
 ${fingerprint}\n
 Use your Password B to login.\n
