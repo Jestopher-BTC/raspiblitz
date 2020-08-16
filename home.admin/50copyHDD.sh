@@ -79,7 +79,7 @@ if [ "${CHOICE}" = "WINDOWS" ]; then
   echo ""
   echo "Open a fresh terminal on your Windows computer & change into the directory that"
   echo "contains the blockchain data - should see folders named 'blocks' & 'chainstate'"
-  echo "there. Normally on Windows thats: C:\Users\YourUserName\Appdata\Roaming\Bitcoin"
+  echo "there. Normally on Windows that's: C:\Users\YourUserName\Appdata\Roaming\Bitcoin"
   echo "Make sure that the Bitcoin Core Wallet is not running in the background anymore."
   echo ""
   echo "COPY, PASTE & EXECUTE the following command on your Windows computer terminal:"
@@ -99,7 +99,7 @@ if [ "${CHOICE}" = "MACOS" ]; then
   echo ""
   echo "Open a fresh terminal on your MacOSX computer and change into the directory that"
   echo "contains the blockchain data - should see folders named 'blocks' & 'chainstate'"
-  echo "there. Normally on MacOSX thats: cd ~/Library/Application Support/Bitcoin/"
+  echo "there. Normally on MacOSX that's: cd ~/Library/Application Support/Bitcoin/"
   echo "Make sure that the Bitcoin Core Wallet is not running in the background anymore."
   echo ""
   echo "COPY, PASTE & EXECUTE the following command on your MacOSX terminal:"
@@ -120,7 +120,7 @@ if [ "${CHOICE}" = "LINUX" ]; then
   echo ""
   echo "Open a fresh terminal on your Linux computer and change into the directory that"
   echo "contains the blockchain data - should see folders named 'blocks' & 'chainstate'"
-  echo "there. Normally on Linux thats: cd ~/.bitcoin/"
+  echo "there. Normally on Linux that's: cd ~/.bitcoin/"
   echo "Make sure that the Bitcoin Core Wallet is not running in the background anymore."
   echo ""
   echo "COPY, PASTE & EXECUTE the following command on your Linux terminal:"
@@ -146,7 +146,7 @@ fi
 echo "" 
 echo "It can take multiple hours until transfer is complete - be patient."
 echo "****************************************************************************"
-echo "PRESS ENTER if transfers is done OR if you want to choose another option."
+echo "PRESS ENTER if transfer is done OR if you want to choose another option."
 sleep 2
 read key
 
