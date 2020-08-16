@@ -52,7 +52,7 @@ if [ "${autoUnlock}" = "on" ]; then
 
 In the next dialog you need to re-enter your
 ACTUAL/OLD Password C to re-activate the
-Auto-Unlock feature. Enter a empty password
+Auto-Unlock feature. Enter an empty password
 to deactivate the Auto-Unlock feature.
 " 10 52
   echo "Activating Auto-Unlock (please wait) .."
