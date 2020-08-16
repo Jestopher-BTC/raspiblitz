@@ -41,7 +41,7 @@ Do you want to start the Update now?
 
   whiptail --title "LND Data Backup" --yes-button "Download Backup" --no-button "Skip" --yesno "
 Before we start the RaspiBlitz Update process,
-its recommended to make a backup of all your LND Data
+it is recommended to make a backup of all your LND Data
 and download that file to your laptop.
 
 Do you want to download LND Data Backup now?
@@ -55,7 +55,7 @@ Do you want to download LND Data Backup now?
     sleep 2
     /home/admin/config.scripts/lnd.rescue.sh backup
     echo
-    echo "PRESS ENTER to continue once your done downloading."
+    echo "PRESS ENTER to continue once you're done downloading."
     read key
   else
     clear
@@ -97,8 +97,8 @@ patchNotice()
 It means it will sync the program code with the
 the GitHub repo for your version branch v${codeVersion}.
 
-This can be usefull if there are important updates 
-inbetween releases to fix severe bugs. It can also
+This can be useful if there are important updates 
+in between releases to fix severe bugs. It can also
 be used to sync your own code with your RaspiBlitz 
 if you are developing on your own GitHub Repo.
 
