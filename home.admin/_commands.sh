@@ -142,6 +142,7 @@ function fwdreport() {
 function bos() {
   if [ $(grep -c "bos=on" < /mnt/hdd/raspiblitz.conf) -eq 1 ]; then
     echo "# switching to the bos user with the command: 'sudo su - bos'"
+    echo "# return to previous user with the command: 'exit'"
     sudo su - bos
   else
     echo "Balance of Satoshis is not installed - to install run:"
