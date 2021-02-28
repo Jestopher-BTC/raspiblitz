@@ -164,7 +164,7 @@ if [ ${isMounted} -eq 1 ]; then
   if [ ${blockchainDataExists} -gt 0 ]; then
     if [ ${configExists} -eq 1 ]; then
       /home/admin/XXdebugLogs.sh
-      echo "UNKOWN STATE - there is blockain data config, but blockchain service is not running"
+      echo "UNKNOWN STATE - there is blockain data config, but blockchain service is not running"
       echo "It seems that something went wrong during sync/download/copy of the blockchain."
       echo "Or something with the config is not correct."
       echo "Sometimes a reboot helps - use command: restart"
@@ -211,7 +211,7 @@ if [ ${isMounted} -eq 1 ]; then
 
   # error
   else
-    echo "FAIL Unkown network(${network})"
+    echo "FAIL Unknown network(${network})"
     exit 1
    fi
 
