@@ -896,7 +896,7 @@ if [ "$1" = "raid" ]; then
      >&2 echo "# RAID - Removing raid drive to RaspiBlitz data drive"  
   else
      >&2 echo "# possible 2nd parameter is 'on' or 'off'"  
-     echo "error='unkown parameter'"
+     echo "error='unknown parameter'"
      exit 1
   fi
 
@@ -1404,8 +1404,8 @@ if [ "$1" = "swap" ]; then
     exit 0
 
   else
-    >&2 echo "# FAIL unkown second parameter - try 'on' or 'off'"
-    echo "error='unkown parameter'"
+    >&2 echo "# FAIL unknown second parameter - try 'on' or 'off'"
+    echo "error='unknown parameter'"
     exit 1
   fi
 
@@ -1543,8 +1543,8 @@ if [ "$1" = "clean" ]; then
       exit 1
 
     else
-      >&2 echo "# FAIL unkown third parameter try '-total' or '-keepblockchain'"
-      echo "error='unkown parameter'"
+      >&2 echo "# FAIL unknown third parameter try '-total' or '-keepblockchain'"
+      echo "error='unknown parameter'"
       exit 1    
     fi
 
@@ -1602,12 +1602,12 @@ if [ "$1" = "clean" ]; then
     exit 1
   
   else
-    >&2 echo "# FAIL unkown second parameter - try 'all','blockchain' or 'temp'"
-    echo "error='unkown parameter'"
+    >&2 echo "# FAIL unknown second parameter - try 'all','blockchain' or 'temp'"
+    echo "error='unknown parameter'"
     exit 1
   fi
 
 fi  
 
-echo "error='unkown command'"
+echo "error='unknown command'"
 exit 1
