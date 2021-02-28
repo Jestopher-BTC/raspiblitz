@@ -254,7 +254,7 @@ if [ "${command}" == "hdmi" ]; then
     cd /home/admin/LCD-show
     ./LCD35-show
   else
-    echo "error='unkown second parameter'"
+    echo "error='unknown second parameter'"
     exit 1
   fi
   exit 0
@@ -262,5 +262,5 @@ if [ "${command}" == "hdmi" ]; then
 fi
 
 # unknown command
-echo "error='unkown command'"
+echo "error='unknown command'"
 exit 1
